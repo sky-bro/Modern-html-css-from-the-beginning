@@ -10,3 +10,5 @@
 
 * media query
 * use rem, not em
+* background with image, center, cover...
+* inline-box, inline, box
