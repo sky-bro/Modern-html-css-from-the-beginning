@@ -27,6 +27,11 @@ p {
   overflow: hidden;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -103,7 +108,8 @@ p {
   display: flex;
   justify-content: space-between;
   z-index: 1;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   padding: 1rem;
   background: #333;
@@ -194,4 +200,39 @@ p {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+}
+
+#contact div {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
