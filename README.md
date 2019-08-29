@@ -5,6 +5,7 @@
 ### SubProject
 
 * [Hotel Website](./hotel-website)
+* [EdgeLedger Website](./edgeledger-website)
 
 ### Things We Cover
 
