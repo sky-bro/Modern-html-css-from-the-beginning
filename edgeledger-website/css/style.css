@@ -188,7 +188,6 @@ p {
 
 #who .who-img {
   background: url('../img/people.jpg') no-repeat center center/cover;
-
 }
 
 /* Section: Clients */
@@ -207,7 +206,8 @@ p {
   display: flex;
 }
 
-#contact div {
+#contact .contact-form,
+#contact .map {
   flex: 1;
 }
 
@@ -224,3 +224,8 @@ p {
   width: 100%;
   padding: 0.5rem;
 }
+
+/* .map {
+  height: 100%;
+} */
+
